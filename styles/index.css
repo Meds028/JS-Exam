@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div.btns{
+    display: inline-block;
+}
+    a#brick{
+        background-color: #B45F06;
+        border: 1px solid #B45F06;
+        color: white;
+    }
+
+    a#grass{
+        margin: 0 10px;
+    }
+
+    a#reset{
+        margin-left: 50px;
+    }
+
+div#container{
+    width: 90%;
+    margin: auto;
+}
+    div#container div#play_area{
+        border: 1px solid black;
+        width: 80%;
+        height: 660px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    div#container div#player_list{
+        border: 1px solid black;
+        width: 19%;
+        height: 500px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
